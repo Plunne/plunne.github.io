@@ -1,2 +1,0 @@
-# plunne.github.io
-Blog
