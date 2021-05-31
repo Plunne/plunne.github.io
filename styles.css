@@ -1,0 +1,56 @@
+/*******************
+ *     Nav bar     *
+ *******************/
+
+nav ul{
+	padding:0px;
+	margin:0px;
+	list-style-type:none;
+	background-color:#444444;
+}
+
+nav li{
+	display:inline-block;
+	width:100px;
+	height:40px;
+	margin:0px;
+	padding:0px;
+	border-right:1px solid #bcbcbc;
+	text-align:center;
+	line-height:40px;
+}
+
+nav li :hover{
+	background-color:#d70087;
+}
+
+nav li a{
+	display:block;
+	text-decoration:none;
+	color:#FFFFFF;
+}
+
+/******************
+ *     Titles     *
+ ******************/
+
+h1 {
+}
+
+/****************
+ *     Text     *
+ ****************/
+
+p {
+}
+
+/*******************
+ *     Classes     *
+ *******************/
+
+.body {
+}
+
+.container {
+}
+
