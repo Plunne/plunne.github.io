@@ -27,7 +27,7 @@ nav li{
 	padding:0px;
 	border-right:0px solid #bcbcbc;
 	text-align:center;
-	line-height:40px;
+	line-height:48px;
 }
 
 nav li :hover{
@@ -65,7 +65,7 @@ nav li a :active{
 /*.container {
 }*/
 
-.menu_selected {
+.menu_selected a {
     color:#d70087;
 }
 
