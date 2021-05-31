@@ -64,6 +64,9 @@ nav li a{
  *******************/
 
 .container{
+    align-content: center;
+}
+
+.content{
     width:80%;
-    align-content:center;
 }
