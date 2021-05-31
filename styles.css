@@ -40,6 +40,11 @@ nav li a{
 	color:#FFFFFF;
 }
 
+nav li a #selected{
+	display:block;
+    text-decoration:none;
+	color:#d70087;
+}
 
 /******************
  *     Titles     *
