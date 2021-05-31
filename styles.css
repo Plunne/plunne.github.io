@@ -40,6 +40,10 @@ nav li a{
 	color:#FFFFFF;
 }
 
+nav li a :active{
+	color:#d70087;
+}
+
 /******************
  *     Titles     *
  ******************/
