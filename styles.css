@@ -34,15 +34,12 @@ nav li :hover{
 	background-color:#d70087;
 }
 
-nav li {
+nav li a {
 	display:block;
     text-decoration:none;
 	color:#FFFFFF;
 }
 
-nav li :active{
-	color:#d70087;
-}
 
 /******************
  *     Titles     *
@@ -58,7 +55,7 @@ nav li :active{
 /*p {
 }*/
 
-nav li #selected {
+#selected {
     color:#d70087;
 }
 
