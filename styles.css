@@ -64,5 +64,6 @@ nav li a{
  *******************/
 
 .container{
-    text-align:center;
+    width:80%;
+    align-content:center;
 }
