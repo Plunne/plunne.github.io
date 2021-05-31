@@ -58,7 +58,7 @@ nav li a :active{
 /*p {
 }*/
 
-#selected {
+nav li #selected {
     color:#d70087;
 }
 
