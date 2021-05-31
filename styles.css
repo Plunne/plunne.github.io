@@ -22,7 +22,7 @@ nav ul{
 nav li{
 	display:inline-block;
 	width:100px;
-	height:40px;
+	height:48px;
 	margin:0px;
 	padding:0px;
 	border-right:0px solid #bcbcbc;
@@ -34,6 +34,11 @@ nav li :hover{
 	background-color:#d70087;
 }
 
+nav li :active{
+	color:#d70087;
+}
+
+
 nav li a{
 	display:block;
 	text-decoration:none;
@@ -44,8 +49,8 @@ nav li a{
  *     Titles     *
  ******************/
 
-h1 {
-}
+/*h1 {
+}*/
 
 /****************
  *     Text     *
