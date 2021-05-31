@@ -34,11 +34,6 @@ nav li :hover{
 	background-color:#d70087;
 }
 
-nav li :active{
-	color:#d70087;
-}
-
-
 nav li a{
 	display:block;
 	text-decoration:none;
@@ -65,4 +60,8 @@ nav li a{
 
 /*.container {
 }*/
+
+.menu_selected {
+    color:#d70087;
+}
 
