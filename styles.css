@@ -34,7 +34,7 @@ nav li :hover{
 	background-color:#d70087;
 }
 
-nav li a {
+nav li a{
 	display:block;
     text-decoration:none;
 	color:#FFFFFF;
@@ -55,7 +55,7 @@ nav li a {
 /*p {
 }*/
 
-#selected {
+#selected{
     color:#d70087;
 }
 
@@ -63,6 +63,6 @@ nav li a {
  *     Classes     *
  *******************/
 
-.container {
+.container{
     text-align:center;
 }
