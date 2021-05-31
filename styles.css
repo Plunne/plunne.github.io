@@ -25,7 +25,7 @@ nav li{
 	height:40px;
 	margin:0px;
 	padding:0px;
-	border-right:1px solid #bcbcbc;
+	border-right:0px solid #bcbcbc;
 	text-align:center;
 	line-height:40px;
 }
@@ -51,13 +51,13 @@ h1 {
  *     Text     *
  ****************/
 
-p {
-}
+/*p {
+}*/
 
 /*******************
  *     Classes     *
  *******************/
 
-.container {
-}
+/*.container {
+}*/
 
