@@ -27,6 +27,7 @@ nav li{
 	padding:0px;
 	border-right:0px solid #bcbcbc;
 	text-align:center;
+    text-decoration:none;
 	line-height:48px;
 }
 
@@ -62,7 +63,7 @@ nav li a :active{
  *******************/
 
 .container {
-    text-align:center;
+    align-content:center;
 }
 
 nav li a .menu_selected{
