@@ -65,7 +65,7 @@ nav li a :active{
 /*.container {
 }*/
 
-.menu_selected a {
+.menu_selected{
     color:#d70087;
 }
 
