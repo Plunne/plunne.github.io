@@ -27,7 +27,6 @@ nav li{
 	padding:0px;
 	border-right:0px solid #bcbcbc;
 	text-align:center;
-    text-decoration:none;
 	line-height:48px;
 }
 
@@ -37,6 +36,7 @@ nav li :hover{
 
 nav li a{
 	display:block;
+    text-decoration:none;
 	color:#FFFFFF;
 }
 
