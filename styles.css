@@ -58,15 +58,15 @@ nav li a :active{
 /*p {
 }*/
 
+#selected {
+    color: #d70087;
+}
+
 /*******************
  *     Classes     *
  *******************/
 
 .container {
+    width: 80%;
     align-content:center;
 }
-
-nav li a .menu_selected{
-    color:#d70087;
-}
-
