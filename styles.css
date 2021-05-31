@@ -59,7 +59,7 @@ nav li a :active{
 }*/
 
 #selected {
-    color: #d70087;
+    color:#d70087;
 }
 
 /*******************
@@ -67,6 +67,6 @@ nav li a :active{
  *******************/
 
 .container {
-    width: 80%;
+    width:80%;
     align-content:center;
 }
