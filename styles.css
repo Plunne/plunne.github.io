@@ -20,14 +20,14 @@ html, body {
  *     Nav bar     *
  *******************/
 
-nav ul{
+nav ul {
 	padding:0px;
 	margin:0px;
 	list-style-type:none;
 	background-color:#444444;
 }
 
-nav li{
+nav li {
 	display:inline-block;
 	width:100px;
 	height:48px;
@@ -38,11 +38,11 @@ nav li{
 	line-height:48px;
 }
 
-nav li :hover{
+nav li :hover {
 	background-color:#d70087;
 }
 
-nav li a{
+nav li a {
 	display:block;
     text-decoration:none;
 	color:#FFFFFF;
@@ -68,14 +68,11 @@ nav li a.selected {
 /*p {
 }*/
 
-#selected{
-    color:#d70087;
-}
 
 /*******************
  *     Classes     *
  *******************/
 
-.container{
+.container {
     margin: 0% 10%;
 }
