@@ -25,6 +25,7 @@ nav ul {
 	margin:0px;
 	list-style-type:none;
 	background-color:#444444;
+    align-content: center;
 }
 
 nav li {
