@@ -39,6 +39,7 @@ nav li {
 }
 
 nav li :hover {
+    color: #FFFFFF;
 	background-color:#d70087;
 }
 
