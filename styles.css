@@ -76,3 +76,7 @@ nav li a.selected {
 .container {
     margin: 0% 10%;
 }
+
+.spacer {
+    max-width: auto;
+}
