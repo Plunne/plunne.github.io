@@ -29,7 +29,6 @@ nav ul {
 
 nav li {
 	display:inline-block;
-    float: left;
 	width:100px;
 	height:48px;
 	margin:0px;
@@ -41,7 +40,8 @@ nav li {
 
 nav li a {
 	display:block;
-  text-decoration:none;
+    float: left;
+    text-decoration:none;
 	color:#FFFFFF;
 }
 
