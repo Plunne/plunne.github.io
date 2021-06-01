@@ -87,5 +87,6 @@ nav li div.spacer {
     display: block;
     height: 48px;
     width: 100%;
+	text-align:center;
 	line-height:48px;
 }
