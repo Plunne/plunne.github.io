@@ -38,13 +38,17 @@ nav li {
 	line-height:48px;
 }
 
-nav li a :hover {
-    display: block;
-    color: #FFFFFF;
+nav li :hover {
 	background-color:#d70087;
 }
 
 nav li a {
+	display:block;
+    text-decoration:none;
+	color:#FFFFFF;
+}
+
+nav li a :hover {
 	display:block;
     text-decoration:none;
 	color:#FFFFFF;
