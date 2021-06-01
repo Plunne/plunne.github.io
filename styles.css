@@ -20,42 +20,42 @@ html, body {
  *     Nav bar     *
  *******************/
 
-nav ul {
+/* Nav-bar properties */
+nav {
+    display: inline-flex;
+    width: 100%;
+    height: 100%;
 	padding:0px;
 	margin:0px;
-	list-style-type:none;
+    line-height: 48px;
+    text-align: center;
 	background-color:#444444;
 }
 
-nav li {
-	display:inline-block;
-	width:100px;
-	height:48px;
-	margin:0px;
+/* Menu ul properties */
+ul {
+    display: inline-flex;
+    list-style-type:none;
+    margin:0px;
 	padding:0px;
-	border-right:0px solid #bcbcbc;
-	text-align:center;
-	line-height:48px;
 }
 
-nav li a {
-	display:block;
-    text-decoration:none;
-	color:#FFFFFF;
+/* Menu list properties */
+li { display: flex }
+li a {
+    width:100px;
+	height:100%;
+	margin:0px;
+	padding:0px; 
 }
 
-nav li a:hover {
-	color:#FFFFFF;
-	background-color:#d70087;
-}
-
-nav li a.selected {
-	color:#d70087;
-}
-
-nav li a.selected:hover {
-	color:#444444;
-}
+/* Menu animations */
+a { color:#FFFFFF; text-decoration:none }
+li a:hover { background-color:#d70087 }
+a.selected { color:#d70087 }
+a.selected:hover { color:#444444 }
+a.home { color:#FFFFFF }
+a.home-active { color:#d70087 }
 
 /******************
  *     Titles     *
@@ -76,14 +76,10 @@ nav li a.selected:hover {
  *     Classes     *
  *******************/
 
-.container {
-    margin: 0% 10%;
-}
+/* container */
+.container { margin: 0% 10% }
 
-div.spacer {
-    display: block;
-    height: 48px;
-    width: 100%;
-	text-align:center;
-	line-height:48px;
-}
+/* Nav-bar */
+.nav-home { flex-grow: 2 }
+.nav-spacer { flex-grow: 4 }
+.nav-menu { flex-grow: 1 }
