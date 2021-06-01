@@ -38,7 +38,8 @@ nav li {
 	line-height:48px;
 }
 
-nav li :hover {
+nav li a :hover {
+    display: block;
     color: #FFFFFF;
 	background-color:#d70087;
 }
@@ -79,6 +80,7 @@ nav li a.selected {
 }
 
 nav li div.spacer {
+    display: block;
     height: 48px;
     width: auto;
 }
