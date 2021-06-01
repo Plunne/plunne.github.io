@@ -86,5 +86,6 @@ nav li a.selected {
 nav li div.spacer {
     display: block;
     height: 48px;
-    width: auto;
+    width: 100%;
+	line-height:48px;
 }
