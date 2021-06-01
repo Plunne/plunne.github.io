@@ -48,7 +48,7 @@ nav li a{
 	color:#FFFFFF;
 }
 
-nav li.selected a{
+nav li.selected {
 	display:block;
     text-decoration:none;
 	color:#d70087;
