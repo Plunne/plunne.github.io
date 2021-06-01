@@ -78,5 +78,6 @@ nav li a.selected {
 }
 
 div.spacer {
+    max-height: 48px;
     max-width: auto;
 }
