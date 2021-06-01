@@ -40,7 +40,7 @@ nav li a{
 	color:#FFFFFF;
 }
 
-nav li a #selected{
+nav li.selected a{
 	display:block;
     text-decoration:none;
 	color:#d70087;
