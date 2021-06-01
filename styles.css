@@ -78,7 +78,7 @@ nav li a.selected {
     margin: 0% 10%;
 }
 
-li div.spacer {
+nav li div.spacer {
     height: 48px;
     width: auto;
 }
