@@ -76,9 +76,8 @@ a.home {
 }
 a.home:hover { color:#444444 }
 
-img.logo_home {
-    display: flex;
-    height: 40px;
+img.logo-home {
+    height: 30px;
     width: auto;
 }
 
@@ -100,7 +99,6 @@ img.logo_home {
 .container { margin: 0% 10% }
 
 /* Nav-bar */
-.nav-logo { flex-grow: 1 }
-.nav-home { flex-grow: 3 }
-.nav-spacer { flex-grow: 6 }
-.nav-menu { flex-grow: 2 }
+.nav-home { flex-grow: 1 }
+.nav-spacer { flex-grow: 3 }
+.nav-menu { flex-grow: 1 }
