@@ -70,6 +70,9 @@ a.selected { color:#d70087; background-color:#ffffff; border-color:#d70087 }
 a.selected:hover { color:#444444; background-color:#ffffff; border-color:#444444 }
 a.home {
     height: 100%;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
     font-size: 30px;
     color:#d70087;
     border:none;
@@ -77,8 +80,9 @@ a.home {
 a.home:hover { color:#444444 }
 
 img.logo-home {
-    height: 30px;
+    height: 40px;
     width: auto;
+    margin-right: 10px;
 }
 
 /******************
@@ -102,3 +106,4 @@ img.logo-home {
 .nav-home { flex-grow: 1 }
 .nav-spacer { flex-grow: 3 }
 .nav-menu { flex-grow: 1 }
+
