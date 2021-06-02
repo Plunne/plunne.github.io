@@ -76,6 +76,10 @@ a.home {
 }
 a.home:hover { color:#444444 }
 
+img.logo_home {
+    height: 40px;
+    width: auto;
+}
 
 /******************
  *     Titles     *
@@ -95,6 +99,7 @@ a.home:hover { color:#444444 }
 .container { margin: 0% 10% }
 
 /* Nav-bar */
-.nav-home { flex-grow: 2 }
-.nav-spacer { flex-grow: 4 }
-.nav-menu { flex-grow: 1 }
+.nav-logo { flex-grow: 1 }
+.nav-home { flex-grow: 3 }
+.nav-spacer { flex-grow: 6 }
+.nav-menu { flex-grow: 2 }
