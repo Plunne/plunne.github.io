@@ -58,15 +58,16 @@ a {
     border-style: solid;
     border-radius: 20px;
     border-width: 1px;
-    border-color:#d70087;
-    color:#d70087;
+    border-color:#ffffff;
+    color:#bcbcbc;
     text-decoration:none;
+    
 }
 
 /* Menu animations */
-li a:hover { color:#ffffff; background-color:#d70087 }
-a.selected { color:#ffffff; background-color:#d70087 }
-a.selected:hover { color:#444444 }
+li a:hover { color:#bcbcbc; background-color:#ffffff; border-color:#bcbcbc }
+a.selected { color:#d70087; background-color:#ffffff; border-color:#d70087 }
+a.selected:hover { color:#444444; background-color:#ffffff; border-color:#444444 }
 a.home {
     height: 100%;
     font-size: 30px;
