@@ -100,6 +100,13 @@ img.logo-home {
  *     Text     *
  ****************/
 
+article {
+    background-color: #ffffff;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 1px;
+    border-color:#d70087;
+}
 
 /*******************
  *     Classes     *
