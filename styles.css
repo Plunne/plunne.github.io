@@ -82,6 +82,7 @@ a.home {
     font-size: 30px;
     color:#d70087;
     border:none;
+    text-decoration:none;
 }
 a.home:hover { color:#ffffff }
 
