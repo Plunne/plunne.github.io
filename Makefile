@@ -9,6 +9,7 @@ about = \
     about/aboutme.html
 
 blog = \
+	blog/my_blog.html 			\
     blog/1_MyEnvironment.html
 
 contact = \
