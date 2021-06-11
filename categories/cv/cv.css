@@ -146,7 +146,18 @@ h1 { color: #d70087 }
 ul.left-box-list { display:block }
 
 /* CV Main panels */
-.main-box { display: block }
-p.diploma-name { font-weight: bold }
-p.diploma-location { color: #b2b2b2 }
-
+.main-box * { 
+    display: block;
+    margin: 0;
+    padding-top: 50px;
+}
+p.diploma-name {
+    margin:0;
+    padding-top: 20px;
+    font-weight: bold;
+}
+p.diploma-location { 
+    margin: 0;
+    padding: 0;
+    color: #d70087;
+}
