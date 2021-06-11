@@ -6,17 +6,17 @@
 
 # Dirs
 about = \
-    about/aboutme.html
+    categories/about/aboutme.html
 
 blog = \
-	blog/my_blog.html 			\
-    blog/1_MyEnvironment.html
+	categories/blog/blog.html 			\
+    categories/blog/articles/1_MyEnvironment.html
 
 contact = \
-    contact/contactme.html
+    categories/contact/contactme.html
 
 cv = \
-    cv/my_cv.html
+    categories/cv/cv.html
 
 # Files
 FILES = \
