@@ -74,7 +74,7 @@ li a {
 li a:hover { color:#ffffff; background-color:#222222; border-color:#ffffff }
 li a.selected { color:#d70087; background-color:#222222; border-color:#d70087 }
 li a.selected:hover { color:#ffffff; background-color:#222222; border-color:#ffffff }
-li a.home {
+a.home {
     height: 100%;
     margin: 0;
     padding: 0;
@@ -83,7 +83,7 @@ li a.home {
     color:#d70087;
     border:none;
 }
-li a.home:hover { color:#ffffff }
+a.home:hover { color:#ffffff }
 
 img.logo-home {
     height: 40px;
