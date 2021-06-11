@@ -12,7 +12,7 @@ blog = \
     blog/1_MyEnvironment.html
 
 contact = \
-    contact/contact.html
+    contact/contactme.html
 
 cv = \
     cv/my_cv.html
