@@ -72,9 +72,9 @@ a {
 
 /* Menu animations */
 li a:hover { color:#ffffff; background-color:#222222; border-color:#ffffff }
-a.selected { color:#d70087; background-color:#222222; border-color:#d70087 }
-a.selected:hover { color:#ffffff; background-color:#222222; border-color:#ffffff }
-a.home {
+li a.selected { color:#d70087; background-color:#222222; border-color:#d70087 }
+li a.selected:hover { color:#ffffff; background-color:#222222; border-color:#ffffff }
+li a.home {
     height: 100%;
     margin: 0;
     padding: 0;
@@ -83,7 +83,7 @@ a.home {
     color:#d70087;
     border:none;
 }
-a.home:hover { color:#ffffff }
+li a.home:hover { color:#ffffff }
 
 img.logo-home {
     height: 40px;
