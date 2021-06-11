@@ -2,6 +2,8 @@
  *     GENERAL SETTINGS     *
  ****************************/
 
+@import url("/css/all.css");
+
 * {
     font-family: sans-serif;
 }
