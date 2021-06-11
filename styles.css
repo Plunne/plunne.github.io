@@ -68,8 +68,7 @@ li a {
     border-width: 1px;
     border-color:#222222;
     color:#bcbcbc;
-    text-decoration:none;
-    
+    text-decoration:none;    
 }
 
 /* Menu animations */
@@ -88,6 +87,7 @@ a.home {
 }
 a.home:hover { color:#ffffff }
 
+/* Logo */
 img.logo-home {
     height: 40px;
     width: auto;
@@ -98,11 +98,13 @@ img.logo-home {
  *     Titles     *
  ******************/
 
+h1 { color: #d70087 }
 
 /********************
  *     Articles     *
  ********************/
 
+/* Article frame */
 article {
     background-color: #eeeeee;
     padding: 20px;
@@ -114,10 +116,12 @@ article {
     border-color:#bcbcbc;
 }
 
+/* Article Header */
 article header * { margin: 0px; padding: 0px }
 article header h1 { color: #d70087; padding-top: 10px; font-size: 28px }
 article header p.datetime { color: #d70087 }
 
+/* Article footer */
 article footer a {
     width:120px;
 	height:100%;
