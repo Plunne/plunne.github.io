@@ -105,7 +105,7 @@ h1 { color: #d70087 }
  *******************/
 
 /* Container */
-.container { display: inline-flex }
+.container { height: 1000px; display: inline-flex }
 
 /* Nav-bar */
 .nav-home { flex-grow: 1 }
