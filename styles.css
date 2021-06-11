@@ -138,7 +138,7 @@ article footer a:hover { color:#ffffff; background-color:#d70087; border-color:#
  *******************/
 
 /* Container */
-.container { margin: 0% 20% }
+.container { margin: 52px 20% }
 
 /* Nav-bar */
 .nav-home { flex-grow: 1 }
