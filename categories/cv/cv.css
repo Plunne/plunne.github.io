@@ -100,6 +100,7 @@ img.logo-home {
 
 h1 { color: #d70087 }
 
+
 /*******************
  *     Classes     *
  *******************/
@@ -115,3 +116,18 @@ h1 { color: #d70087 }
 /* CV */
 .left-panel { flex-grow: 2; background-color: #d70087 }
 .main-panel { flex-grow: 7 }
+
+/* CV Left Panel*/
+.left-box-title { color: #ffffff }
+.left-box {
+    padding: 5%;
+    margin: 5%;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color:#ffffff;
+    color:#d70087;
+    background-color: #ffffff;
+}
+.left-box-sub-title { color: #d70087; background-color: #ffffff }
+ul.left-box-list { display:flex; flex-direction: row}
