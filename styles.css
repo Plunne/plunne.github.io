@@ -17,7 +17,7 @@ html, body {
  }
 
 body {
-    background-color: #eeeeee;
+    background-color: #ffffff;
 }
 
 /*******************
@@ -101,13 +101,13 @@ img.logo-home {
  ****************/
 
 article {
-    background-color: #ffffff;
+    background-color: #eeeeee;
     padding: 20px;
     margin: 20px;
     border-style: solid;
-    border-radius: 20px;
+    border-radius: 10px;
     border-width: 1px;
-    border-color:#d70087;
+    border-color:#bcbcbc;
 }
 
 /*******************
@@ -115,7 +115,7 @@ article {
  *******************/
 
 /* container */
-.container { margin: 0% 10% }
+.container { margin: 0% 20% }
 
 /* Nav-bar */
 .nav-home { flex-grow: 1 }
