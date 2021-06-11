@@ -112,6 +112,9 @@ article {
     border-color:#bcbcbc;
 }
 
+article header h1 { color: #d70087 }
+article header p.datetime { color: #d70087 }
+
 article footer a {
     width:120px;
 	height:100%;
@@ -124,7 +127,6 @@ article footer a {
     color:#bcbcbc;
     text-decoration:none;
 }
-
 article footer a:hover { color:#ffffff; background-color:#d70087; border-color:#d70087 }
 
 
@@ -132,7 +134,7 @@ article footer a:hover { color:#ffffff; background-color:#d70087; border-color:#
  *     Classes     *
  *******************/
 
-/* container */
+/* Container */
 .container { margin: 0% 20% }
 
 /* Nav-bar */
