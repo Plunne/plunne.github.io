@@ -10,13 +10,14 @@ about = \
 
 blog = \
 	categories/blog/blog.html 			\
-    categories/blog/articles/1_MyEnvironment.html
+    categories/blog/articles/1_MonEnvironnement.html
 
 contact = \
     categories/contact/contactme.html
 
 cv = \
-    categories/cv/cv.html
+    categories/cv/cv.html 	\
+	categories/cv/cv.css
 
 # Files
 FILES = \
