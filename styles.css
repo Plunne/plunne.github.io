@@ -114,7 +114,8 @@ article {
     border-color:#bcbcbc;
 }
 
-article header h1 { color: #d70087 }
+article header * { margin: 0px; padding: 0px }
+article header h1 { color: #d70087; padding-top: 10px; font-size: 28px }
 article header p.datetime { color: #d70087 }
 
 article footer a {
