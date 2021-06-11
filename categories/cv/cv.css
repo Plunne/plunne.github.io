@@ -114,7 +114,7 @@ h1 { color: #d70087 }
 
 /* CV */
 .left-panel { flex-grow: 1; background-color: #d70087 }
-.main-panel { flex-grow: 7 }
+.main-panel { flex-grow: 7; margin: 0 5% }
 
 /* CV Left Panel*/
 .left-box-title {
@@ -147,4 +147,6 @@ ul.left-box-list { display:block }
 
 /* CV Main panels */
 .main-box { display: block }
+p.diploma-name { font-weight: bold }
+p.diploma-location { color: #b2b2b2 }
 
