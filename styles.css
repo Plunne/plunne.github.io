@@ -97,9 +97,9 @@ img.logo-home {
  ******************/
 
 
-/****************
- *     Text     *
- ****************/
+/********************
+ *     Articles     *
+ ********************/
 
 article {
     background-color: #eeeeee;
@@ -109,6 +109,19 @@ article {
     border-radius: 10px;
     border-width: 1px;
     border-color:#bcbcbc;
+}
+
+article footer a {
+    width:140px;
+	height:100%;
+	margin:0px 5px;
+	padding:8px 10px;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 1px;
+    border-color:#bcbcbc;
+    color:#eeeeee;
+    text-decoration:none;
 }
 
 /*******************
