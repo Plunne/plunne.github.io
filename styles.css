@@ -104,6 +104,7 @@ img.logo-home {
 article {
     background-color: #eeeeee;
     padding: 20px;
+    padding-top: 0px;
     margin: 20px;
     border-style: solid;
     border-radius: 10px;
@@ -112,17 +113,20 @@ article {
 }
 
 article footer a {
-    width:140px;
+    width:120px;
 	height:100%;
-	margin:0px 5px;
-	padding:8px 10px;
+	margin:0px 0px;
+	padding:2px 30px;
     border-style: solid;
     border-radius: 20px;
     border-width: 1px;
     border-color:#bcbcbc;
-    color:#eeeeee;
+    color:#bcbcbc;
     text-decoration:none;
 }
+
+article footer a:hover { color:#ffffff; background-color:#d70087; border-color:#d70087 }
+
 
 /*******************
  *     Classes     *
