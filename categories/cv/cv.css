@@ -42,7 +42,7 @@ nav {
 }
 
 /* Menu ul properties */
-ul {
+nav ul {
     display: inline-flex;
     list-style-type:none;
     height: 100%;
@@ -143,5 +143,5 @@ h1 { color: #d70087 }
     background-color: #d70087;
     text-align: center;
 }
-ul.left-box-list { display:flex; flex-direction: row}
+ul.left-box-list { display:block }
 
