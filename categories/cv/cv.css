@@ -100,6 +100,7 @@ img.logo-home {
 
 h1 { color: #d70087 }
 
+
 /*******************
  *     Classes     *
  *******************/
@@ -117,22 +118,22 @@ h1 { color: #d70087 }
 .main-panel { flex-grow: 7; margin: 0 5%; padding-top:50px }
 
 /* CV Left Panel*/
-.left-box-title {
-    margin: 10px 0;
-    padding: 0;
-    color: #d70087; 
-    text-align:center;
-    font-size: 32px;
-}
 .left-box {
     padding: 0 5% 3% 5%;
-    margin: 0 5%;
+    margin: 30px 30px;
     border-style: solid;
     border-radius: 10px;
     border-width: 1px;
     border-color:#d70087;
     color:#d70087;
     background-color: #ffffff;
+}
+.left-box-title {
+    margin: 10px 0;
+    padding: 0;
+    color: #d70087; 
+    text-align:center;
+    font-size: 32px;
 }
 .left-box-subtitle {
     border-style: solid;
