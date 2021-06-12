@@ -119,7 +119,7 @@ h1 { color: #d70087 }
 
 /* CV Gray box */
 .gray-box {
-    padding: 5% 10%;
+    padding: 15px 30px;
     margin: 30px 30px;
     border-style: solid;
     border-radius: 10px;
@@ -128,7 +128,11 @@ h1 { color: #d70087 }
     color:#444444;
     background-color: #eeeeee;
 }
-div.gray-box p { display:block }
+div.gray-box p { 
+    display:block;
+    margin: 4px;
+    padding:0;
+}
 
 /* CV Left panel */
 .left-box {
