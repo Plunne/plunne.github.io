@@ -115,7 +115,7 @@ h1 { color: #d70087 }
 
 /* CV */
 .left-panel { flex-grow: 1; background-color: #ffffff }
-.main-panel { flex-grow: 7; margin: 0 50px 50px 50px }
+.main-panel { flex-grow: 7; margin: 0 100px 50px 100px }
 
 /* CV Left Panel*/
 .left-box {
@@ -147,6 +147,7 @@ h1 { color: #d70087 }
 ul.left-box-list { display:block }
 
 /* CV Main panels */
+
 .main-box {
     padding-top: 50px;
 }
@@ -175,3 +176,4 @@ p.experience-description {
 p.experience-location {
     color: #d70087;
 }
+
