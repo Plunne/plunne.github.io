@@ -98,7 +98,11 @@ img.logo-home {
  *     Titles     *
  ******************/
 
-h1 { color: #d70087 }
+h1 { 
+    color: #d70087;
+    border-bottom-style: solid;
+    border-bottom-width: 1px; 
+}
 
 
 /*******************
