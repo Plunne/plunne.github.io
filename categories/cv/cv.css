@@ -119,16 +119,16 @@ h1 { color: #d70087 }
 
 /* CV Gray box */
 .gray-box {
-    padding: 0 5% 3% 5%;
+    padding: 5% 10%;
     margin: 30px 30px;
     border-style: solid;
     border-radius: 10px;
     border-width: 1px;
     border-color:#bcbcbc;
-    color:#222222;
+    color:#444444;
     background-color: #eeeeee;
 }
-ul.gray-box-list { display:block }
+div.gray-box p { display:block }
 
 /* CV Left panel */
 .left-box {
