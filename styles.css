@@ -108,6 +108,7 @@ p a {
    color: #d70087;
    text-decoration: none;
 }
+p a:hover { text-decoration: underline }
 
 /********************
  *     Articles     *
