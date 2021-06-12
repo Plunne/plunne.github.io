@@ -115,7 +115,7 @@ h1 { color: #d70087 }
 
 /* CV */
 .left-panel { flex-grow: 1; background-color: #ffffff }
-.main-panel { flex-grow: 7; margin: 0 5% }
+.main-panel { flex-grow: 7; margin: 0 50px 50px 50px }
 
 /* CV Left Panel*/
 .left-box {
