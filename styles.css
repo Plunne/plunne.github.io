@@ -130,11 +130,12 @@ article footer a {
     border-style: solid;
     border-radius: 20px;
     border-width: 1px;
-    border-color:#bcbcbc;
-    color:#bcbcbc;
+    border-color:#d70087;
+    color:#ffffff;
+    background-color: #d70087;
     text-decoration:none;
 }
-article footer a:hover { color:#ffffff; background-color:#d70087; border-color:#d70087 }
+article footer a:hover { color:#d70087; background-color:#eeeeee; border-color:#d70087 }
 
 
 /*******************
