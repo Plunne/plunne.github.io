@@ -152,14 +152,22 @@ ul.left-box-list { display:block }
     padding: 0;
 }
 
+/* Formations items */
 p.diploma-name {
-    margin:0;
     padding-top: 20px;
     font-weight: bold;
 }
-p.diploma-location { 
-    margin: 0;
-    padding: 0;
+p.diploma-location {
     color: #d70087;
 }
 
+/* Professional items */
+p.experience-name {
+    padding-top: 20px;
+}
+p.experience-description {
+    font-weight: normal;
+}
+p.experience-location {
+    color: #d70087;
+}
