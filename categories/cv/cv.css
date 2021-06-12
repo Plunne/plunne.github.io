@@ -113,14 +113,14 @@ h1 { color: #d70087 }
 .nav-menu { flex-grow: 0.5 }
 
 /* CV */
-.left-panel { flex-grow: 1; background-color: #d70087 }
+.left-panel { flex-grow: 1; background-color: #ffffff }
 .main-panel { flex-grow: 7; margin: 0 5%; padding-top:50px }
 
 /* CV Left Panel*/
 .left-box-title {
     margin: 10px 0;
     padding: 0;
-    color: #ffffff; 
+    color: #d70087; 
     text-align:center;
     font-size: 32px;
 }
@@ -130,7 +130,7 @@ h1 { color: #d70087 }
     border-style: solid;
     border-radius: 10px;
     border-width: 1px;
-    border-color:#ffffff;
+    border-color:#d70087;
     color:#d70087;
     background-color: #ffffff;
 }
@@ -161,3 +161,4 @@ p.diploma-location {
     padding: 0;
     color: #d70087;
 }
+
