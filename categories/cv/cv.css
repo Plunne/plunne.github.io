@@ -136,6 +136,8 @@ h1 { color: #d70087 }
     font-size: 32px;
 }
 .left-box-subtitle {
+    margin: 20px 10%;
+    padding: 2px 0;
     border-style: solid;
     border-radius: 20px;
     border-width: 1px;
