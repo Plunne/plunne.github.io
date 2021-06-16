@@ -154,6 +154,7 @@ article footer a:hover { color:#d70087; background-color:#eeeeee; border-color:#
 
 /* Container */
 .container { margin: 52px 20% }
+div.text-block p { text-align: justify; text-justify: inter-word }
 
 /* Nav-bar */
 .nav-home { flex-grow: 1 }
