@@ -1,0 +1,12 @@
+* {
+	--color01: #9783b1;
+	--color02: #6c5689;
+	--color03: #5e4a77;
+	--color-dark: #503f65;
+	--color-darker: #342942;
+	--color-black: #1e1826;
+	--color-light: #c4b8d3;
+
+	--ft-family: sans-serif;
+	--ft-color: var(--color-light);
+}

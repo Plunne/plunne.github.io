@@ -1,0 +1,167 @@
+/****************************
+ *     GENERAL SETTINGS     *
+ ****************************/
+
+@import url("/css/colors.css");
+@import url("/css/fa.css");
+
+* {
+    font-family: var(--ft-family);
+	color: var(--ft-color);
+}
+
+
+/*****************
+ *     RESET     *
+ *****************/
+
+html, body {
+ margin:0;
+ padding:0;
+ }
+
+body {
+    background-color: var(--color-black);
+}
+
+/*******************
+ *     Nav bar     *
+ *******************/
+
+/* Nav-bar properties */
+nav {
+    display: inline-flex;
+    width: 100%;
+    height: 100%;
+	padding:24px 0px;
+	margin:0px;
+    line-height: auto;
+    text-align: center;
+	background-color: var(--color-darker);
+    border-bottom: solid;
+    border-bottom-color: var(--color01);
+    border-bottom-width: 1px;
+}
+
+/* Menu ul properties */
+ul {
+    display: inline-flex;
+    list-style-type:none;
+    height: 100%;
+    margin:0px;
+	padding:0px;
+}
+
+/* Menu list properties */
+li { 
+    display: flex;
+    height: 100%;
+    margin:0px;
+    padding:0px;
+}
+
+li a {
+    width:120px;
+	height:100%;
+	margin:0px 5px;
+	padding:8px 10px;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 1px;
+    border-color: var(--color-darker);
+    color: var(--color01);
+    text-decoration:none;    
+}
+
+/* Menu animations */
+li a:hover { color: var(--color01); background-color:var(--color-darker); border-color: var(--color-dark) }
+li a.selected { color: var(--color01); background-color: var(--color-darker); border-color: var(--color01) }
+li a.selected:hover { color: var(--color-light); background-color: var(--color-darker); border-color: var(--color-light) }
+a.home {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    font-size: 30px;
+    color: var(--color01);
+    border:none;
+    text-decoration:none;
+}
+a.home:hover { color: var(--color-light) }
+
+/* Logo */
+img.logo-home {
+    height: 40px;
+    width: auto;
+    margin-right: 10px;
+}
+
+/******************
+ *     Titles     *
+ ******************/
+
+h1 { color: var(--color01) }
+
+/****************
+ *     Text     *
+ ****************/
+
+p a {
+   color: var(--color01);
+   text-decoration: none;
+}
+p a:hover { text-decoration: underline }
+
+/********************
+ *     Articles     *
+ ********************/
+
+/* Article frame */
+article {
+    background-color: var(--color-darker);
+    padding: 20px;
+    padding-top: 0px;
+    margin: 20px;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: var(--color-dark);
+}
+
+/* Article Header */
+article header * { margin: 0px; padding: 0px }
+article header h1 { color: var(--color01); padding-top: 10px; font-size: 28px }
+article header h1:hover { color: var(--color-light) }
+article header h1 a { color: var(--color01); text-decoration: none }
+article header h1 a:hover { color: var(--color-light) }
+article header p.datetime { color: var(--color01) }
+
+/* Article footer */
+article footer a {
+    width:120px;
+	height:100%;
+	margin:0px 0px;
+	padding:2px 30px;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 1px;
+    border-color:var(--color-dark);
+    color: var(--color01);
+    background-color: var(--color-darker);
+    text-decoration:none;
+}
+article footer a:hover { color:var(--color-darker); background-color: var(--color01); border-color:var(--color01) }
+
+
+/*******************
+ *     Classes     *
+ *******************/
+
+/* Container */
+.container { margin: 52px 20% }
+div.text-block p { text-align: justify; text-justify: inter-word }
+
+/* Nav-bar */
+.nav-home { flex-grow: 1 }
+.nav-spacer { flex-grow: 3 }
+.nav-menu { flex-grow: 0.5 }

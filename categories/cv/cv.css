@@ -2,10 +2,12 @@
  *     GENERAL SETTINGS     *
  ****************************/
 
-@import url("/css/all.css");
+@import url("/css/colors.css");
+@import url("/css/fa.css");
 
 * {
-    font-family: sans-serif;
+    font-family: var(--ft-family);
+    color: var(--ft-color);
 }
 
 
@@ -19,7 +21,7 @@ html, body {
  }
 
 body {
-    background-color: #ffffff;
+    background-color: var(--color-black);
 }
 
 /*******************
@@ -35,9 +37,9 @@ nav {
 	margin:0px;
     line-height: auto;
     text-align: center;
-	background-color:#222222;
+	background-color: var(--color-darker);
     border-bottom: solid;
-    border-bottom-color: #d70087;
+    border-bottom-color: var(--color01);
     border-bottom-width: 1px;
 }
 
@@ -66,26 +68,26 @@ li a {
     border-style: solid;
     border-radius: 20px;
     border-width: 1px;
-    border-color:#222222;
-    color:#bcbcbc;
+    border-color: var(--color-darker);
+    color: var(--color01);
     text-decoration:none;    
 }
 
 /* Menu animations */
-li a:hover { color:#ffffff; background-color:#222222; border-color:#ffffff }
-li a.selected { color:#d70087; background-color:#222222; border-color:#d70087 }
-li a.selected:hover { color:#ffffff; background-color:#222222; border-color:#ffffff }
+li a:hover { color: var(--color01); background-color:var(--color-darker); border-color: var(--color-dark) }
+li a.selected { color: var(--color01); background-color: var(--color-darker); border-color: var(--color01) }
+li a.selected:hover { color: var(--color-light); background-color: var(--color-darker); border-color: var(--color-light) }
 a.home {
     height: 100%;
     margin: 0;
     padding: 0;
     vertical-align: top;
     font-size: 30px;
-    color:#d70087;
+    color: var(--color01);
     border:none;
     text-decoration:none;
 }
-a.home:hover { color:#ffffff }
+a.home:hover { color: var(--color-light) }
 
 /* Logo */
 img.logo-home {
@@ -99,7 +101,7 @@ img.logo-home {
  ******************/
 
 h1 { 
-    color: #d70087;
+    color: var(--color01);
     border-bottom-style: solid;
     border-bottom-width: 1px; 
 }
@@ -118,7 +120,7 @@ h1 {
 .nav-menu { flex-grow: 0.5 }
 
 /* CV */
-.left-panel { flex-grow: 1; background-color: #ffffff }
+.left-panel { flex-grow: 1; background-color: var(--color-black) }
 .main-panel { flex-grow: 7; margin: 0 100px 50px 100px }
 
 /* CV Gray box */
@@ -128,9 +130,9 @@ h1 {
     border-style: solid;
     border-radius: 10px;
     border-width: 1px;
-    border-color:#bcbcbc;
-    color:#444444;
-    background-color: #eeeeee;
+    border-color: var(--color-dark);
+    color: var(--color-light);
+    background-color: var(--color-darker);
 }
 div.gray-box p { 
     display:block;
@@ -145,14 +147,14 @@ div.gray-box p {
     border-style: solid;
     border-radius: 10px;
     border-width: 1px;
-    border-color:#d70087;
-    color:#d70087;
-    background-color: #ffffff;
+    border-color: var(--color01);
+    color:var(--color01);
+    background-color: var(--color-black);
 }
 .left-box-title {
     margin: 10px 0;
     padding: 0;
-    color: #d70087; 
+    color: var(--color01); 
     text-align:center;
     font-size: 32px;
 }
@@ -162,9 +164,9 @@ div.gray-box p {
     border-style: solid;
     border-radius: 20px;
     border-width: 1px;
-    border-color:#d70087;
-    color: #ffffff; 
-    background-color: #d70087;
+    border-color: var(--color01);
+    color: var(--color-black); 
+    background-color: var(--color01);
     text-align: center;
 }
 ul.left-box-list { display:block }
@@ -188,7 +190,7 @@ p.diploma-name {
     font-weight: bold;
 }
 p.diploma-location {
-    color: #d70087;
+    color: var(--color01);
 }
 
 /* Professional items */
@@ -199,6 +201,6 @@ p.experience-description {
     font-weight: normal;
 }
 p.experience-location {
-    color: #d70087;
+    color: var(--color01);
 }
 
