@@ -204,3 +204,11 @@ p.experience-location {
     color: var(--color01);
 }
 
+/* Projects items */
+p.project-name {
+    padding-top: 20px;
+    font-weight: bold;
+}
+p.project-description {
+    color: var(--color01);
+}
