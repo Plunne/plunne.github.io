@@ -102,6 +102,11 @@ img.logo-home {
 
 h1 { color: var(--color01) }
 
+h2 { 
+    border-bottom-style: solid;
+    border-bottom-width: 1px; 
+}
+
 /****************
  *     Text     *
  ****************/
