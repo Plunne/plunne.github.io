@@ -166,9 +166,9 @@ article footer a:hover { color:var(--color-darker); background-color: var(--colo
 .container { margin: 52px 20% }
 div.text-block p { text-align: justify; text-justify: inter-word }
 .level4 {
-	margin:0px 30px;
+	padding:0px 30px;
     border-left-style: solid;
-	border-left-width: 2px;
+	border-left-width: 1px;
 }
 
 /* Nav-bar */
