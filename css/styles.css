@@ -170,6 +170,12 @@ div.text-block p { text-align: justify; text-justify: inter-word }
 	border-left-width: 1px;
 	padding:0px 24px;
 }
+.notebloc {
+    background-color: var(--color-darker);
+	border-left-style: solid;
+	border-left-width: 1px;
+	padding:12px 24px;
+}
 
 /* Nav-bar */
 .nav-home { flex-grow: 1 }
