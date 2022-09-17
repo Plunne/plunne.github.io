@@ -167,8 +167,7 @@ article footer a:hover { color:var(--color-darker); background-color: var(--colo
 div.text-block p { text-align: justify; text-justify: inter-word }
 .level4 {
 	padding:0px 30px;
-    outline-left-style: solid;
-	outline-left-width: 1px;
+	border-left: 1px solid;
 }
 
 /* Nav-bar */
