@@ -166,7 +166,7 @@ article footer a:hover { color:var(--color-darker); background-color: var(--colo
 .container { margin: 52px 20% }
 div.text-block p { text-align: justify; text-justify: inter-word }
 .level4 {
-	margin-left:52px;
+	margin:52px 0px;
     border-left-style: solid;
 	border-left-width: 2px;
 }
